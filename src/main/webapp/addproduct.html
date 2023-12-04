@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acsia Laptop</title>
+    <link rel="stylesheet" href="addproduct.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.css">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav>
+                <label class="logo"><a href="home.html">Acsia Laptops</a></label>
+
+                
+                <ul>
+                    <li><a href="seller-dashboard.html">Home</a></li>
+                    <li><a href="addproduct.html">Add Product</a></li>
+                    <li><a href="">Manage Orders</a></li>
+                    <li><a href="">Inventory</a></li>
+                    
+                </ul>
+    
+                <i class="fa-solid fa-user fa-lg dropbtn" style="color: #ffffff;position: relative;left: 1768px;top: -182px;"></i>
+                <div class="dropdown">
+                    <button class="dropbtn">Profile</button>
+                    <div class="dropdown-content">
+                      <a href="">LogOut</a>
+                      
+                    </div>
+                </div>
+        
+        <div class="mainbox">
+          
+            <h1 class="heading">ADD PRODUCT</h1>
+
+            <div class="inner-box">
+                <div class="form-box">
+                    <form action="addProduct_servlet" method="post" >
+                        <label for="" class="name">Product name</label>
+                        <input type="text" name="name" class="form-textbox"><br>
+
+                        <label for="" class="name">Model number</label>
+                        <input type="text" name="modelno" class="form-textbox"><br>
+
+                        <label for="" class="name-desc">Description</label>
+                        <textarea name="description" id="" cols="30" rows="10" class="form-textarea" placeholder="Maximum 1000 Characters"></textarea><br>
+
+                        <label for="" class="name" style="    margin-left: 281px;">Price</label>
+                        <input type="text" name="price" class="form-textbox"><br>
+
+                        <label for="" class="name" style="    margin-left: 241px;">Quantity</label>
+                        <input type="text" name="quantity" class="form-textbox"><br>
+
+                        <!-- <label for="" class="name" style="    margin-left: 198px;">Add Image</label>
+                        <input type="file" name="image" class="form-img" accept="Image/*"><br> -->
+
+                        <input type="submit" name="" id="" value="submit" class="form-submit">
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+       
+</body>
+</html>
